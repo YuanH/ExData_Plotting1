@@ -10,3 +10,5 @@ energy %>%
   filter((Date >= "2007-02-01") & (Date <= "2007-02-02"))%>%
   with(hist(as.numeric(Global_active_power), col = "red", xlab = ("Global Active Power (Kilowatts)"),
             main = "Global Active Power"))
+
+
